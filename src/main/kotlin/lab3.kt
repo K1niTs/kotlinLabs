@@ -1,9 +1,9 @@
 fun main() {
     val scan = java.util.Scanner(System.`in`)
-    val a = scan.nextInt()
-    val firstNumber = a / 1000 % 10
-    val secondNumber = a / 100 % 10
-    val thirdNumber = a / 10 % 10
-    val fourthNumber = a % 10
+    val number: Int = scan.nextInt()
+    val firstNumber = number / 1000 % 10
+    val secondNumber = number / 100 % 10
+    val thirdNumber = number / 10 % 10
+    val fourthNumber = number % 10
     println("Результат: $firstNumber, $secondNumber, $thirdNumber, $fourthNumber")
 }
