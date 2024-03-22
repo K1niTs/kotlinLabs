@@ -1,7 +1,7 @@
-//5, 8, 18, 34, 3, 56, 43, 27, 4, 23
+//5,8,18,34,3,56,43,27,4,23
 
 fun main() {
-    val array = readLine()?.split(",")?.map { it.trim().toInt() }
+    val array = readLine()?.split(",")?.map { it.toInt() }
 
     if (array != null && array.isNotEmpty()) {
         val average = array.average()
