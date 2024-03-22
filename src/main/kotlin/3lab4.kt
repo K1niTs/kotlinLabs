@@ -2,9 +2,8 @@ fun main() {
     println("Введите число:")
 
     val scan = java.util.Scanner(System.`in`)
-    val input: Int = scan.nextInt()
+    val number: Int = scan.nextInt()
 
-    val number = input.toInt()
     var evenNumber = 0
     var oddNumber = 0
 
