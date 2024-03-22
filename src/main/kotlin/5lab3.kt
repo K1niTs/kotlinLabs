@@ -1,8 +1,9 @@
 
-fun calculateDiscount(classicPrice: Double, discountPrice: Double): Double {
-    val discountPrice = classicPrice * (discountPrice / 100)
-    return (classicPrice - discountPrice).roundTo(2)
+fun calculateDiscount(classicPrice: Double, discountPercent: Double): Double {
+    val discountAmount = classicPrice * (discountPercent / 100)
+    return (classicPrice - discountAmount).roundTo(2)
 }
+
 
 fun Double.roundTo(decimals: Int): Double {
     val multiplier = Math.pow(10.0, decimals.toDouble())
