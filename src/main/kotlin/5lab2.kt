@@ -13,4 +13,6 @@ fun main() {
     println(2.yearsEnding())
     println(5.yearsEnding())
     println(10.yearsEnding())
+    println(24.yearsEnding())
+
 }
